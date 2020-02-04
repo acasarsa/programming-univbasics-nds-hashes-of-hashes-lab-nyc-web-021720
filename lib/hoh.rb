@@ -34,7 +34,7 @@ PORTION_4 = {
 
 def naming_system
   hoh = {
-    PORTION_1, PORTION_2, PORTION_3, PORTION_4
+    
   }
   hoh
   # Remember:
