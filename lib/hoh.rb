@@ -4,36 +4,35 @@
 #
 # The tests will guide your construction.
 #
-# PORTION_1 = {
-#   label: "Kingdom",
-#   sub_category: {
-#     label: "Phylum",
-#     sub_category: {
-#       label: "Class"
-#     }
-#   }
-# }
-def naming_system
-  
-end
-#
-# PORTION_2 = {
-#   label: "Order"
-# }
-#
-# PORTION_3 = {
-#   label: "Family",
-#   sub_category: {
-#     label: "Genus",
-#   }
-# }
-#
-# PORTION_4 = {
-#   label: "Species",
-#   sub_category: nil
-# }
+PORTION_1 = {
+  label: "Kingdom",
+  sub_category: {
+    label: "Phylum",
+    sub_category: {
+      label: "Class"
+    }
+  }
+}
+
+
+PORTION_2 = {
+  label: "Order"
+}
+
+PORTION_3 = {
+  label: "Family",
+  sub_category: {
+    label: "Genus",
+  }
+}
+
+PORTION_4 = {
+  label: "Species",
+  sub_category: nil
+}
 
 def naming_system
+  HoH = [PORTION_1, PORTION_2, PORTION_3, PORTION_4]
   # Remember:
   #  Kingdom
   #  Phylum
