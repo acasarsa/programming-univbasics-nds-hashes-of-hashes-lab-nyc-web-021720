@@ -4,6 +4,7 @@
 #
 # The tests will guide your construction.
 # #
+
 PORTION_1 = {
   label: "Kingdom",
   sub_category: {
@@ -32,7 +33,9 @@ PORTION_4 = {
 }
 
 def naming_system
-  hoh = {}
+  hoh = {
+    PORTION_1, PORTION_2, PORTION_3, PORTION_4
+  }
   hoh
   # Remember:
   #  Kingdom
@@ -47,9 +50,9 @@ def naming_system
 
 end
 
-def giant_hoh
-  hoh = {
-    PORTION_1, PORTION_2, PORTION_3, PORTION_4
-  }
-  hoh
-end
+# def giant_hoh
+#   hoh = {
+#     PORTION_1, PORTION_2, PORTION_3, PORTION_4
+#   }
+#   hoh
+# end
