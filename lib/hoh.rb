@@ -47,8 +47,8 @@ def naming_system
   # HoH all the way to Species!
 
 end
-
-def giant_hoh
-
-  hoh
-end
+# 
+# def giant_hoh
+#
+#   hoh
+# end
