@@ -34,7 +34,6 @@ PORTION_4 = {
 def naming_system
   hoh = {}
   hoh
-  hoh[:sub_category][:sub_category][:sub_category] = "Order"
   # Remember:
   #  Kingdom
   #  Phylum
@@ -46,4 +45,9 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
+end
+
+def giant_hoh
+  hoh[:sub_category][:sub_category][:sub_category][:label] = "Order"
+  hoh
 end
