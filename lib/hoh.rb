@@ -33,6 +33,7 @@ PORTION_4 = {
 
 def naming_system
   hoh = {}
+  hoh[:sub_category][:sub_category][:sub_category][:label] = "Order"
   hoh
   # Remember:
   #  Kingdom
@@ -48,6 +49,6 @@ def naming_system
 end
 
 def giant_hoh
-  hoh[:sub_category][:sub_category][:sub_category][:label] = "Order"
+
   hoh
 end
