@@ -46,8 +46,8 @@ def naming_system
   # HoH all the way to Species!
 
 end
-#
-# def giant_hoh
-#
-#   hoh
-# end
+
+def giant_hoh
+  hoh[:sub_category][:sub_category][:sub_category][:label][1] = "Order"
+  hoh
+end
