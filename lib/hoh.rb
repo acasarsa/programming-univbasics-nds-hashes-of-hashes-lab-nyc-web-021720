@@ -48,6 +48,7 @@ def naming_system
 end
 
 def giant_hoh
-  hoh[:sub_category][:sub_category][:sub_category][:label][1] = "Order"
-  hoh
+  hoh = {
+    PORTION_1, PORTION_2, PORTION_3, PORTION_4
+  }
 end
