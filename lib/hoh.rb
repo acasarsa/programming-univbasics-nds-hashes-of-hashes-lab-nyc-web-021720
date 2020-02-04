@@ -33,7 +33,6 @@ PORTION_4 = {
 
 def naming_system
   hoh = {}
-  hoh[:sub_category][:sub_category][:sub_category][:label][1] = "Order"
   hoh
   # Remember:
   #  Kingdom
